@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiffGenerationConfig">
+    <option name="sourceModelValue" value="sisepe:entityManagerFactory" />
+    <option name="targetDbValue" value="07f4ba80-aafc-4d55-8b28-ecdc943dfd50" />
+  </component>
+</project>
