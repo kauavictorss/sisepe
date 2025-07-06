@@ -21,6 +21,7 @@ public class Usuario {
 
     private String nome;
     private String email;
+    private boolean ativo = true;
 
     public Usuario(DtoCadUsuario dados) {
         this.cpf = dados.cpf();
@@ -35,5 +36,9 @@ public class Usuario {
         if (dados.email() != null) {
             this.email = dados.email();
         }
+    }
+
+    public void excluir() {
+        this.ativo = false;
     }
 }

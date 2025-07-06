@@ -6,7 +6,8 @@ import jakarta.validation.constraints.Pattern;
 
 public record DtoCadUsuario(
         @NotBlank
-        @Pattern(regexp = "\\d{11}") String cpf,
+        @Pattern(regexp = "\\d{11}")
+        String cpf,
 
         @NotBlank
         String nome,

@@ -35,9 +35,9 @@ public class RestUsuario {
         return ResponseEntity.created(uri).body(new DtoListagemUsuarios(usuario));
     }
 
-    @GetMapping("/todos")
+    @GetMapping("/listar/todos/ativos")
     public ResponseEntity<Page<DtoListagemUsuarios>> listaDeUsuarios(@PageableDefault(size = 12, sort = {"nome"}) Pageable paginacao) {
-        var page = repositorio.findAll(paginacao).map(DtoListagemUsuarios::new);
+        var page = repositorio.findAllByAtivoTrue(paginacao).map(DtoListagemUsuarios::new);
         return ResponseEntity.ok(page);
     }
 
@@ -54,10 +54,10 @@ public class RestUsuario {
         usuario.atualizarDados(dados);
     }
 
-//    @DeleteMapping("/excluir/{cpf}")
-//    @Transactional
-//    public void excluirUsuario(@PathVariable String cpf) {
-//        var usuario = repository.getReferenceById(cpf);
-//        usuario.excluir();
-//    }
+    @DeleteMapping("/excluir/{cpf}")
+    @Transactional
+    public void excluirUsuario(@PathVariable String cpf) {
+        var usuario = repositorio.getReferenceById(cpf);
+        usuario.excluir();
+    }
 }
