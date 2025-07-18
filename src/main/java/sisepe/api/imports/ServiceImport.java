@@ -31,7 +31,7 @@ public class ServiceImport {
 
     public void importarSecoesCsv() {
         log.info("Importando seções");
-        InputStream resource = getClass().getResourceAsStream("/dados/secoes.csv");
+        InputStream resource = getClass().getResourceAsStream("/db/migration/secoes.csv");
         if (resource == null) return;
 
         List<Secao> secoes = new ArrayList<>();
@@ -79,7 +79,7 @@ public class ServiceImport {
 
     public void importarSedesPolosCsv() {
         log.info("Importando sedes de polos");
-        InputStream resource = getClass().getResourceAsStream("/dados/polos-sedes.csv");
+        InputStream resource = getClass().getResourceAsStream("/db/migration/polos-sedes.csv");
         if (resource == null) return;
 
         try (CSVReaderHeaderAware reader = new CSVReaderHeaderAware(new InputStreamReader(resource))) {
@@ -101,7 +101,7 @@ public class ServiceImport {
 
     public void importarSedesZonasCsv() {
         log.info("Importando sedes de zonas");
-        InputStream resource = getClass().getResourceAsStream("/dados/zonas-sedes.csv");
+        InputStream resource = getClass().getResourceAsStream("/db/migration/zonas-sedes.csv");
         if (resource == null) return;
 
         try (CSVReaderHeaderAware reader = new CSVReaderHeaderAware(new InputStreamReader(resource))) {

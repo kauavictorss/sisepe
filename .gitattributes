@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+*.java text=auto
+*.js text=auto eol=lf
+*.vue text=auto eol=lf
