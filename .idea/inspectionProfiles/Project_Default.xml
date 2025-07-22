@@ -1,0 +1,75 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="27">
+            <item index="0" class="java.lang.String" itemvalue="v-model:visible" />
+            <item index="1" class="java.lang.String" itemvalue="setup" />
+            <item index="2" class="java.lang.String" itemvalue="modal" />
+            <item index="3" class="java.lang.String" itemvalue="header" />
+            <item index="4" class="java.lang.String" itemvalue=":style" />
+            <item index="5" class="java.lang.String" itemvalue="v-model" />
+            <item index="6" class="java.lang.String" itemvalue="#end" />
+            <item index="7" class="java.lang.String" itemvalue=":class" />
+            <item index="8" class="java.lang.String" itemvalue=":breakpoints" />
+            <item index="9" class="java.lang.String" itemvalue="scoped" />
+            <item index="10" class="java.lang.String" itemvalue="#header" />
+            <item index="11" class="java.lang.String" itemvalue="icon" />
+            <item index="12" class="java.lang.String" itemvalue="label" />
+            <item index="13" class="java.lang.String" itemvalue="outlined" />
+            <item index="14" class="java.lang.String" itemvalue="@click" />
+            <item index="15" class="java.lang.String" itemvalue="#empty" />
+            <item index="16" class="java.lang.String" itemvalue="#body" />
+            <item index="17" class="java.lang.String" itemvalue="#filter" />
+            <item index="18" class="java.lang.String" itemvalue="#option" />
+            <item index="19" class="java.lang.String" itemvalue=":alt" />
+            <item index="20" class="java.lang.String" itemvalue=":src" />
+            <item index="21" class="java.lang.String" itemvalue=":options" />
+            <item index="22" class="java.lang.String" itemvalue="placeholder" />
+            <item index="23" class="java.lang.String" itemvalue="showClear" />
+            <item index="24" class="java.lang.String" itemvalue="#start" />
+            <item index="25" class="java.lang.String" itemvalue="#title" />
+            <item index="26" class="java.lang.String" itemvalue="#content" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="25">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="Menubar" />
+            <item index="7" class="java.lang.String" itemvalue="DataTable" />
+            <item index="8" class="java.lang.String" itemvalue="Column" />
+            <item index="9" class="java.lang.String" itemvalue="NumeroZona" />
+            <item index="10" class="java.lang.String" itemvalue="router-view" />
+            <item index="11" class="java.lang.String" itemvalue="InputSwitch" />
+            <item index="12" class="java.lang.String" itemvalue="Toast" />
+            <item index="13" class="java.lang.String" itemvalue="ThemeSwitcher" />
+            <item index="14" class="java.lang.String" itemvalue="IconField" />
+            <item index="15" class="java.lang.String" itemvalue="InputIcon" />
+            <item index="16" class="java.lang.String" itemvalue="InputText" />
+            <item index="17" class="java.lang.String" itemvalue="MultiSelect" />
+            <item index="18" class="java.lang.String" itemvalue="DatePicker" />
+            <item index="19" class="java.lang.String" itemvalue="InputNumber" />
+            <item index="20" class="java.lang.String" itemvalue="Tag" />
+            <item index="21" class="java.lang.String" itemvalue="ProgressBar" />
+            <item index="22" class="java.lang.String" itemvalue="Slider" />
+            <item index="23" class="java.lang.String" itemvalue="Card" />
+            <item index="24" class="java.lang.String" itemvalue="style" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
