@@ -10,12 +10,12 @@ import java.util.List;
 public interface RepoZona extends JpaRepository<Zona, Integer> {
 
     @Query("""
-            select new sisepe.api.municipio.DtoMunicipio(m.codTse, m.nome, null, null, null)
+            select new sisepe.api.municipio.DtoMunicipio(m.codTse, m.nome, m.polo.numero, null, null)
             from Zona z
             join z.municipios m
             where z.numero = :numZona
             """)
-    List<DtoMunicipio> findByMunicipioSedeDaZona(int numZona);
+    List<DtoMunicipio> findByCodTseDeUmaZona(int numZona);
 
     @Query("""
             select new sisepe.api.zona.DtoZona(z.numero, m.codTse, m.nome, null, null)
@@ -23,7 +23,7 @@ public interface RepoZona extends JpaRepository<Zona, Integer> {
             join z.municipios m
             where z.numero = :numZona
             """)
-    List<DtoZona> findByNomeDoMunicipiosDeUmaZona(int numZona);
+    List<DtoZona> findByMunicipioSedeDeUmaZona(int numZona);
 
     @Query("""
             select s

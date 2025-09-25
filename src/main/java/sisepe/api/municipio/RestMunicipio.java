@@ -15,12 +15,12 @@ import java.util.List;
 public class RestMunicipio {
     private final RepoMunicipio repositorio;
 
-    @GetMapping("/{codTse}")
-    public List<DtoMunicipio> municipioPorCodTse(@PathVariable Integer codTse) {
+    @GetMapping("/codTse")
+    public List<DtoMunicipio> municipioPorCodTse(@RequestParam Integer codTse) {
         return repositorio.findById(codTse).stream().map(DtoMunicipio::new).toList();
     }
 
-    @GetMapping("/zona-municipio")
+    @GetMapping("/zonas")
     public List<DtoZona> zonasDeUmMunicipio(@RequestParam String nomeMunicipio) {
         return repositorio.findByZonasDeUmMunicipio(nomeMunicipio).stream().map(DtoZona::new).toList();
     }
@@ -30,7 +30,7 @@ public class RestMunicipio {
         return repositorio.findBySecoesDeUmMunicipio(nome).stream().map(DtoMunicipio::new).toList();
     }
 
-    @GetMapping("/secao-municipio")
+    @GetMapping("/secoes")
     public List<DtoMunicipio> secoesDeUmMunicipioWeb(@RequestParam String nome) {
         return repositorio.findBySecoesDeUmMunicipio(nome).stream().map(DtoMunicipio::new).toList();
     }

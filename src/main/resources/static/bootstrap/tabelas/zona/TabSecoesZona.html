@@ -11,7 +11,8 @@
 <div class="container mt-4">
     <h1>Buscar Seções de uma Zona</h1>
     <label for="searchNumZona" class="form-label">Seções da Zona:</label>
-    <input type="text" id="searchNumZona" class="form-control" placeholder="Digite o número da zona" oninput="atualizarTabela()">
+    <input type="text" id="searchNumZona" class="form-control" placeholder="Digite o número da zona"
+           oninput="atualizarTabela()">
 
     <table
             id="table"
@@ -41,15 +42,14 @@
             const url = `http://localhost:8082/zonas/secoes?numZona=${encodeURIComponent(numZona)}`;
             $('#table').bootstrapTable('refresh', {
                 url: url,
-                queryParams: function(params) {
+                queryParams: function (params) {
                     return {
                         numZona: numZona
                     };
                 },
-                responseHandler: function(res) {
-                    // Transform the response to match the expected format
+                responseHandler: function (res) {
                     return res.map(item => ({
-                        numSecao: item.numSecao || item.numero || ''
+                        numSecao: item.numSecao
                     }));
                 }
             });

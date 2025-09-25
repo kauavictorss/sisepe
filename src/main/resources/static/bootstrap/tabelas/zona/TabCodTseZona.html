@@ -11,7 +11,8 @@
 <div class="container mt-4">
     <h1>Buscar Código TSE de uma Zona</h1>
     <label for="searchCodTseDaZona" class="form-label">Código TSE da Zona:</label>
-    <input type="text" id="searchCodTseDaZona" class="form-control" placeholder="Digite o número da zona" oninput="atualizarTabela()">
+    <input type="text" id="searchCodTseDaZona" class="form-control" placeholder="Digite o número da zona"
+           oninput="atualizarTabela()">
 </div>
 
 <table
@@ -35,6 +36,12 @@
         >
             Município
         </th>
+        <th
+                data-field="numPolo"
+                data-sortable="true"
+        >
+            Polo
+        </th>
     </tr>
     </thead>
 </table>
@@ -44,9 +51,9 @@
         const numZona = document.getElementById('searchCodTseDaZona').value;
         if (numZona) {
             const url = `http://localhost:8082/zonas/cod-tse?numZona=${encodeURIComponent(numZona)}`;
-            $('#table').bootstrapTable('refresh', { 
+            $('#table').bootstrapTable('refresh', {
                 url: url,
-                queryParams: function(params) {
+                queryParams: function (params) {
                     return {
                         numZona: numZona
                     };

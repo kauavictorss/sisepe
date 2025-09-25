@@ -11,7 +11,8 @@
 <div class="container mt-4">
     <h1>Buscar Seções de um Município</h1>
     <label for="searchNomeMunicipio" class="form-label">Nome do Município:</label>
-    <input type="text" id="searchNomeMunicipio" class="form-control" placeholder="Digite o nome do município" oninput="atualizarTabela()">
+    <input type="text" id="searchNomeMunicipio" class="form-control" placeholder="Digite o nome do município"
+           oninput="atualizarTabela()">
 
     <table
             id="table"
@@ -21,14 +22,14 @@
             class="table table-bordered text-center w-100 mt-4"
     >
         <thead>
-            <tr>
-                <th
+        <tr>
+            <th
                     data-field="numSecao"
                     data-sortable="true"
-                >
-                    Seções
-                </th>
-            </tr>
+            >
+                Seções
+            </th>
+        </tr>
         </thead>
     </table>
 </div>
@@ -37,9 +38,9 @@
     function atualizarTabela() {
         const nomeMunicipio = document.getElementById('searchNomeMunicipio').value;
         const url =
-            nomeMunicipio ? `http://localhost:8080/municipio/secao-municipio?nome=${encodeURIComponent(nomeMunicipio)}` :
-                'http://localhost:8080/municipio/secao-municipio';
-        $('#table').bootstrapTable('refresh', { url });
+            nomeMunicipio ? `http://localhost:8082/municipio/secoes?nome=${encodeURIComponent(nomeMunicipio)}` :
+                'http://localhost:8082/municipio/secoes';
+        $('#table').bootstrapTable('refresh', {url});
     }
 </script>
 
@@ -65,11 +66,14 @@
         background-color: #fff;
         border-radius: 0.5rem;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        text-align: center;
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 </style>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.24.1/dist/bootstrap-table.min.js"></script>
 </html>

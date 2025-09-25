@@ -4,34 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Removendo o vue">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/index-AqjjHhK4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/index-BWJi3ZdQ.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/primeicons-C6QP2o4f.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/primeicons-DMOk5skT.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/primeicons-Dr5RGzOO.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/primeicons-MpK4pl85.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/primeicons-WjwUDZjB.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/favicon.ico" afterDir="false" />
+    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Ajustes nas tabelas de consultas de Zonas">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/municipio/RestMunicipio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/municipio/RestMunicipio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RepoZona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RepoZona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RestZona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RestZona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/municipio/FormMunCodTse.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/municipio/TabMunCodTse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/municipio/FormSecoesDeMunicipio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/municipio/TabSecoesMunicipio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/municipio/FormZonasDeMunicipio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/municipio/TabZonasMunicipio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabCodTseZona.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabCodTseZona.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabNumZona.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabNumZona.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabSecoesZona.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabSecoesZona.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/index-AqjjHhK4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/index-BWJi3ZdQ.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/primeicons-C6QP2o4f.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/primeicons-DMOk5skT.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/primeicons-Dr5RGzOO.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/primeicons-MpK4pl85.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/primeicons-WjwUDZjB.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/SisepeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/SisepeApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/imports/RestImportacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/imports/RestImportacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/imports/ServiceImport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/imports/ServiceImport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/municipio/DtoMunicipio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/municipio/DtoMunicipio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/municipio/Municipio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/municipio/Municipio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/municipio/RepoMunicipio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/municipio/RepoMunicipio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/municipio/RestMunicipio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/municipio/RestMunicipio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/polo/DtoPolo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/polo/DtoPolo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/polo/Polo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/polo/Polo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/polo/RepoPolo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/polo/RepoPolo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/polo/RestPolo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/polo/RestPolo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/secao/DtoSecao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/secao/DtoSecao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/secao/RepoSecao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/secao/RepoSecao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/secao/RestSecao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/secao/RestSecao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/secao/Secao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/secao/Secao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/RepoUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/RepoUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/RestUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/RestUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/dto/DtoAtualizarUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/dto/DtoAtualizarUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/dto/DtoCadUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/dto/DtoCadUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/dto/DtoListagemUsuarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/usuario/dto/DtoListagemUsuarios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/zona/DtoZona.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/zona/DtoZona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/zona/RepoZona.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/zona/RepoZona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/zona/RestZona.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/zona/RestZona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sisepe/api/zona/Zona.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sisepe/api/zona/Zona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/tabelas/municipio/FormMunCodTse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/tabelas/municipio/FormSecoesDeMunicipio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/tabelas/municipio/FormZonasDeMunicipio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/tabelas/zona/FormMunSedeZona.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/tabelas/zona/FormNomeMunZona.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/tabelas/zona/FormNumZona.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/tabelas/zona/FormSecaoDaZona.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sisepe/api/SisepeApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sisepe/api/SisepeApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +70,7 @@
         <option value="JavaScript File" />
         <option value="Vue Options API Component" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -83,45 +107,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JUnit.SisepeApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.SisepeApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projetos/sisepe/src/main/resources/static&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\WINDOWS\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.SisepeApplicationTests.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.SisepeApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Projetos/sisepe/src/main/resources/static",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\WINDOWS\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Options API Component&quot;
+    "vue.recent.templates": [
+      "Vue Options API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="sisepe.api.usuario" />
@@ -176,8 +203,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
@@ -223,7 +250,16 @@
       <workItem from="1753147893914" duration="44000" />
       <workItem from="1753148084771" duration="51000" />
       <workItem from="1753148203770" duration="6000" />
-      <workItem from="1753148240257" duration="1850000" />
+      <workItem from="1753148240257" duration="6743000" />
+      <workItem from="1753192943707" duration="7801000" />
+      <workItem from="1753213760217" duration="7638000" />
+      <workItem from="1753281215323" duration="867000" />
+      <workItem from="1753378955692" duration="581000" />
+      <workItem from="1753382472821" duration="505000" />
+      <workItem from="1753734219905" duration="1973000" />
+      <workItem from="1753901306764" duration="2859000" />
+      <workItem from="1753982568169" duration="19000" />
+      <workItem from="1756947402903" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Projeto do Sistema Eleitoral">
       <option name="closed" value="true" />
@@ -273,7 +309,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752851007191</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Instalando Bootstrap via CDN e as tabelas para consultas">
+      <option name="closed" value="true" />
+      <created>1753150556926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753150556926</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ajustes nas tabelas de consultas de Zonas">
+      <option name="closed" value="true" />
+      <created>1753208921126</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753208921126</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +338,8 @@
     <MESSAGE value="Iniciando a interface do sistema" />
     <MESSAGE value="Ajustes na interface do sistema" />
     <MESSAGE value="Removendo o vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removendo o vue" />
+    <MESSAGE value="Instalando Bootstrap via CDN e as tabelas para consultas" />
+    <MESSAGE value="Ajustes nas tabelas de consultas de Zonas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes nas tabelas de consultas de Zonas" />
   </component>
 </project>
