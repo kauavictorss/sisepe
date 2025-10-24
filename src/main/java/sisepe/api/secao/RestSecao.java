@@ -21,7 +21,7 @@ public class RestSecao {
     }
 
     @GetMapping("/zona/{numZona}")
-    public List<DtoSecao> listaDeSecoesDeUmaZona(@PathVariable Integer numZona) {
+    public List<DtoSecao> listarSecoesDeUmaZona(@PathVariable Integer numZona) {
         log.info("Consultando lista de seções da Zona: {}", numZona);
         return repositorio.findByZonaNumero(numZona).stream().map(DtoSecao::new).toList();
     }

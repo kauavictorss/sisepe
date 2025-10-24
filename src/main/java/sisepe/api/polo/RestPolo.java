@@ -16,29 +16,18 @@ import java.util.List;
 public class RestPolo {
     private final RepoPolo repositorio;
 
-    @GetMapping("/municipios-do-polo")
-    public List<DtoMunicipio> municipiosDeUmPolo(@RequestParam int numPolo) {
-        return repositorio.findByMunicipiosDeUmPolo(numPolo);
-    }
-
-    @GetMapping("/zonas-do-polo")
-    public List<DtoZona> zonasDeUmPolo(@RequestParam int numPolo) {
-        return repositorio.findAllZonasDeUmPolo(numPolo).stream().map(zona -> new DtoZona(
-                zona.getNumero(),
-                zona.getMunicipioSede().getCodTse(),
-                zona.getMunicipioSede().getNome(),
-                null,
-                null
-        )).toList();
-    }
-
-    @GetMapping("/municipio")
-    public List<DtoPolo> numPoloDeUmMunicipio(@RequestParam int numPolo) {
+    @GetMapping("/numero")
+    public List<DtoPolo> buscarPoloPorNumero(@RequestParam int numPolo) {
         return repositorio.findById(numPolo).stream().map(DtoPolo::new).toList();
     }
 
-    @GetMapping("/polo-da-zona")
-    public List<DtoPolo> numPoloDeUmaZona(@RequestParam int numPolo) {
-        return repositorio.findByNumeroPoloDeUmaZona(numPolo).stream().map(DtoPolo::new).toList();
+    @GetMapping("/municipios")
+    public List<DtoMunicipio> buscarMunicipiosDeUmPolo(@RequestParam int numPolo) {
+        return repositorio.findByMunicipiosDeUmPolo(numPolo);
+    }
+
+    @GetMapping("/zonas")
+    public List<DtoZona> buscarZonasDeUmPolo(@RequestParam int numPolo) {
+        return repositorio.findAllZonasDeUmPolo(numPolo).stream().map(DtoZona::new).toList();
     }
 }

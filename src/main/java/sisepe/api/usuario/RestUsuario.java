@@ -4,9 +4,6 @@ import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -15,6 +12,7 @@ import sisepe.api.usuario.dto.DtoCadUsuario;
 import sisepe.api.usuario.dto.DtoListagemUsuarios;
 
 import java.net.URI;
+import java.util.List;
 
 @RestController
 @CrossOrigin
@@ -36,9 +34,9 @@ public class RestUsuario {
     }
 
     @GetMapping("/listar/todos/ativos")
-    public ResponseEntity<Page<DtoListagemUsuarios>> listaDeUsuarios(@PageableDefault(size = 12, sort = {"nome"}) Pageable paginacao) {
-        var page = repositorio.findAllByAtivoTrue(paginacao).map(DtoListagemUsuarios::new);
-        return ResponseEntity.ok(page);
+    public ResponseEntity<List<DtoListagemUsuarios>> listaDeUsuarios() {
+        var list = repositorio.findAllByAtivoTrue().stream().map(DtoListagemUsuarios::new).toList();
+        return ResponseEntity.ok(list);
     }
 
     @GetMapping("/detalhes/{cpf}")

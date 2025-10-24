@@ -15,23 +15,23 @@ import java.util.List;
 public class RestZona {
     private final RepoZona repositorio;
 
-    @GetMapping
-    public List<DtoZona> numeroDaZona(@RequestParam int numZona) {
+    @GetMapping("/numero")
+    public List<DtoZona> buscarZonaPorNumero(@RequestParam int numZona) {
         return repositorio.findById(numZona).stream().map(DtoZona::new).toList();
     }
 
     @GetMapping("/cod-tse")
-    public List<DtoMunicipio> codTseDeUmaZona(@RequestParam int numZona) {
+    public List<DtoMunicipio> buscarCodTseDeUmaZona(@RequestParam int numZona) {
         return repositorio.findByCodTseDeUmaZona(numZona);
     }
 
-    @GetMapping("/municipio-sede-zona")
-    public List<DtoZona> municipioSedeDeUmaZona(@RequestParam int numZona) {
+    @GetMapping("/municipio-sede")
+    public List<DtoZona> buscarMunicipioSedeDeUmaZona(@RequestParam int numZona) {
         return repositorio.findByMunicipioSedeDeUmaZona(numZona);
     }
 
     @GetMapping("/secoes")
-    public List<DtoZona> secoesDeUmaZona(@RequestParam int numZona) {
+    public List<DtoZona> buscarSecoesDeUmaZona(@RequestParam int numZona) {
         log.info("Secao da zona encontrada: {}", numZona);
         return repositorio.findBySecoesdeUmaZona(numZona).stream().map(DtoZona::new).toList();
     }
