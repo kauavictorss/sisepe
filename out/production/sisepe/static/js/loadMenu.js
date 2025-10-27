@@ -12,5 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
                     link.setAttribute('aria-current', 'page');
                 }
             });
+
+            // Add logout functionality
+            const logoutButton = document.getElementById('logout-button');
+            if (logoutButton) {
+                logoutButton.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    sessionStorage.removeItem('loggedIn');
+                    window.location.href = '/login.html';
+                });
+            }
         });
 });

@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Nova versão atualizada do sisepe com padrões do Bootstrap">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" afterDir="false" />
+    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Ajustes na interface do projeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/img/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/js/loadMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/js/loadMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/polos.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/polos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/secoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/secoes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/loadMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/loadMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/municipios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/municipios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/polos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/polos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/secoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/secoes.html" afterDir="false" />
@@ -162,7 +165,7 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://localhost:8080/index.html" />
+        <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://localhost:8080/login.html" />
       </method>
     </configuration>
     <list>
@@ -236,7 +239,7 @@
       <workItem from="1753982568169" duration="19000" />
       <workItem from="1756947402903" duration="176000" />
       <workItem from="1761326079553" duration="355000" />
-      <workItem from="1761487814273" duration="9600000" />
+      <workItem from="1761487814273" duration="13095000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Projeto do Sistema Eleitoral">
       <option name="closed" value="true" />
@@ -310,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761326292601</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ajustes na interface do projeto">
+      <option name="closed" value="true" />
+      <created>1761528321487</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761528321487</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +337,7 @@
     <MESSAGE value="Instalando Bootstrap via CDN e as tabelas para consultas" />
     <MESSAGE value="Ajustes nas tabelas de consultas de Zonas" />
     <MESSAGE value="Nova versão atualizada do sisepe com padrões do Bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nova versão atualizada do sisepe com padrões do Bootstrap" />
+    <MESSAGE value="Ajustes na interface do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes na interface do projeto" />
   </component>
 </project>
