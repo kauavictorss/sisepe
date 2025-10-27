@@ -4,29 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Ajustes nas tabelas de consultas de Zonas">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Nova versão atualizada do sisepe com padrões do Bootstrap">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/municipio/RestMunicipio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/municipio/RestMunicipio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/polo/RestPolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/polo/RestPolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/secao/RestSecao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/secao/RestSecao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/usuario/RepoUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/usuario/RepoUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/usuario/RestUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/usuario/RestUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RestZona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RestZona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/municipio/TabMunCodTse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/municipio/TabSecoesMunicipio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/municipio/TabZonasMunicipio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/polo/FormMunDoPolo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/polo/FormNumPoloDaZona.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/polo/FormNumPoloDoMunicipio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/polo/FormZonasDoPolo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/secao/FormSecoes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabCodTseZona.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabMunSedeZona.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabNumZona.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bootstrap/tabelas/zona/TabSecoesZona.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/municipios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/municipios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/polos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/polos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/secoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/secoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/usuarios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/zonas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/zonas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +84,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.SisepeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
@@ -185,8 +178,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
       </set>
     </attachedChunks>
   </component>
@@ -242,6 +235,8 @@
       <workItem from="1753901306764" duration="2859000" />
       <workItem from="1753982568169" duration="19000" />
       <workItem from="1756947402903" duration="176000" />
+      <workItem from="1761326079553" duration="355000" />
+      <workItem from="1761487814273" duration="9600000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Projeto do Sistema Eleitoral">
       <option name="closed" value="true" />
@@ -307,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753208921126</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Nova versão atualizada do sisepe com padrões do Bootstrap">
+      <option name="closed" value="true" />
+      <created>1761326292601</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761326292601</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +325,7 @@
     <MESSAGE value="Removendo o vue" />
     <MESSAGE value="Instalando Bootstrap via CDN e as tabelas para consultas" />
     <MESSAGE value="Ajustes nas tabelas de consultas de Zonas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes nas tabelas de consultas de Zonas" />
+    <MESSAGE value="Nova versão atualizada do sisepe com padrões do Bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nova versão atualizada do sisepe com padrões do Bootstrap" />
   </component>
 </project>
