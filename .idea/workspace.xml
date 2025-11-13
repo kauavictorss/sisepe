@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Ajustes na interface do projeto">
+    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="organizando código ddl">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/loadMenuInterno.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/menu_interno.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sisepe/api/usuario/RestUsuarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/db/migration/tabelas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/db/migration/tabelas.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/js/loadMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/js/loadMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" afterDir="false" />
@@ -14,7 +20,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/secoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/secoes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/loadMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/loadMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/municipios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/municipios.html" afterDir="false" />
@@ -38,6 +44,7 @@
         <option value="Vue Options API Component" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -77,6 +84,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.RestUsuarioTest.cadastrarUsuario.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RestUsuarioTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SisepeApplicationTests.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -87,7 +96,10 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.SisepeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
@@ -100,10 +112,10 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\WINDOWS\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -125,14 +137,51 @@
       <recent name="C:\Projetos\sisepe\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\sisepe\src\main\resources\static\img" />
       <recent name="C:\Projetos\sisepe\src\main\resources\static\bootstrap" />
       <recent name="C:\Projetos\sisepe\src\main\resources\static\bootstrap\js" />
       <recent name="C:\Projetos\sisepe\src\main\resources\static\bootstrap\css" />
       <recent name="C:\Projetos\sisepe\src\main\resources\static\tabelas\polo" />
-      <recent name="C:\Projetos\sisepe\src\main\resources\static\tabelas\zona" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="sisepe.api.usuario" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SisepeApplication">
+    <configuration name="RestUsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sisepe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sisepe.api.usuario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sisepe.api.usuario" />
+      <option name="MAIN_CLASS_NAME" value="sisepe.api.usuario.RestUsuarioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestUsuarioTest.cadastrarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sisepe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sisepe.api.usuario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sisepe.api.usuario" />
+      <option name="MAIN_CLASS_NAME" value="sisepe.api.usuario.RestUsuarioTest" />
+      <option name="METHOD_NAME" value="cadastrarUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SisepeApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sisepe" />
       <extension name="coverage">
@@ -169,20 +218,24 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.RestUsuarioTest.cadastrarUsuario" />
+      <item itemvalue="JUnit.RestUsuarioTest" />
       <item itemvalue="JUnit.SisepeApplicationTests" />
       <item itemvalue="Spring Boot.SisepeApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SisepeApplicationTests" />
+        <item itemvalue="JUnit.RestUsuarioTest.cadastrarUsuario" />
+        <item itemvalue="JUnit.RestUsuarioTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
       </set>
     </attachedChunks>
   </component>
@@ -239,7 +292,22 @@
       <workItem from="1753982568169" duration="19000" />
       <workItem from="1756947402903" duration="176000" />
       <workItem from="1761326079553" duration="355000" />
-      <workItem from="1761487814273" duration="13095000" />
+      <workItem from="1761487814273" duration="13390000" />
+      <workItem from="1761567609906" duration="1986000" />
+      <workItem from="1761572190516" duration="1100000" />
+      <workItem from="1761574758517" duration="3595000" />
+      <workItem from="1761679245614" duration="1498000" />
+      <workItem from="1761685391374" duration="722000" />
+      <workItem from="1761696278231" duration="2394000" />
+      <workItem from="1761780703436" duration="68000" />
+      <workItem from="1762195360395" duration="239000" />
+      <workItem from="1762284976987" duration="1016000" />
+      <workItem from="1762290136028" duration="1058000" />
+      <workItem from="1762291253718" duration="209000" />
+      <workItem from="1762979523611" duration="764000" />
+      <workItem from="1762980398762" duration="480000" />
+      <workItem from="1762981185876" duration="1092000" />
+      <workItem from="1762995782043" duration="5972000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Projeto do Sistema Eleitoral">
       <option name="closed" value="true" />
@@ -321,11 +389,38 @@
       <option name="project" value="LOCAL" />
       <updated>1761528321487</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Inclusão do login e ajustes no visual web">
+      <option name="closed" value="true" />
+      <created>1761531755550</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761531755550</updated>
+    </task>
+    <task id="LOCAL-00012" summary="organizando código ddl">
+      <option name="closed" value="true" />
+      <created>1762980221748</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762980221748</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando Projeto do Sistema Eleitoral" />
@@ -338,6 +433,16 @@
     <MESSAGE value="Ajustes nas tabelas de consultas de Zonas" />
     <MESSAGE value="Nova versão atualizada do sisepe com padrões do Bootstrap" />
     <MESSAGE value="Ajustes na interface do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes na interface do projeto" />
+    <MESSAGE value="Inclusão do login e ajustes no visual web" />
+    <MESSAGE value="organizando código ddl" />
+    <option name="LAST_COMMIT_MESSAGE" value="organizando código ddl" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
