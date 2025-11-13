@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="ajuste na logo tre">
+    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Ajustes na interface de menu e login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu_interno.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/menu_interno.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/menu_interno.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/menu_interno.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/municipio/RepoMunicipio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/municipio/RepoMunicipio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/polo/RepoPolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/polo/RepoPolo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RepoZona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RepoZona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RestZona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/zona/RestZona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/zonas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/zonas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +292,7 @@
       <workItem from="1762980398762" duration="480000" />
       <workItem from="1762981185876" duration="1092000" />
       <workItem from="1762995782043" duration="7039000" />
-      <workItem from="1763053433151" duration="3267000" />
+      <workItem from="1763053433151" duration="7443000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Projeto do Sistema Eleitoral">
       <option name="closed" value="true" />
@@ -408,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763003830220</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Ajustes na interface de menu e login">
+      <option name="closed" value="true" />
+      <created>1763062473583</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1763062473583</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +446,8 @@
     <MESSAGE value="organizando código ddl" />
     <MESSAGE value="Ajustes no layout das páginas" />
     <MESSAGE value="ajuste na logo tre" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajuste na logo tre" />
+    <MESSAGE value="Ajustes na interface de menu e login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes na interface de menu e login" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

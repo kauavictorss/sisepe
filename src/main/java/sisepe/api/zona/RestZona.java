@@ -20,14 +20,14 @@ public class RestZona {
         return repositorio.findById(numZona).stream().map(DtoZona::new).toList();
     }
 
-    @GetMapping("/cod-tse")
-    public List<DtoMunicipio> buscarCodTseDeUmaZona(@RequestParam int numZona) {
-        return repositorio.findByCodTseDeUmaZona(numZona);
-    }
-
     @GetMapping("/municipio-sede")
     public List<DtoZona> buscarMunicipioSedeDeUmaZona(@RequestParam int numZona) {
         return repositorio.findByMunicipioSedeDeUmaZona(numZona);
+    }
+
+    @GetMapping("/municipios")
+    public List<DtoMunicipio> buscarMunicipiosDeUmaZona(@RequestParam int numZona) {
+        return repositorio.findByMunicipiosDeUmaZona(numZona);
     }
 
     @GetMapping("/secoes")

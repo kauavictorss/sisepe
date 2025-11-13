@@ -368,7 +368,7 @@
     document.getElementById('form-3').addEventListener('submit', (event) => {
         const numZona = document.getElementById('param-3').value;
         tratarEnvioDeFormulario(event,
-            `${API_BASE_URL}/zonas/cod-tse?numZona=${numZona}`,
+            `${API_BASE_URL}/zonas/municipios?numZona=${numZona}`,
             ['Cód. TSE', 'Nome do Município', 'Num. Polo'],
             (item) => `<td>${item.codTse}</td><td>${item.nome}</td><td>${item.numPolo}</td>`
         );

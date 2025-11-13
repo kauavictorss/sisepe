@@ -5,6 +5,7 @@ import sisepe.api.secao.Secao;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public record DtoMunicipio(Integer codTse, String nome, Integer numPolo, Integer numZona, Integer numSecao) {
+
     public DtoMunicipio(Municipio municipio) {
         this(
                 municipio.getCodTse(),
