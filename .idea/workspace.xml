@@ -4,30 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="organizando código ddl">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/loadMenuInterno.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/menu_interno.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sisepe/api/usuario/RestUsuarioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Ajustes no layout das páginas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/db/migration/tabelas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/db/migration/tabelas.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/js/loadMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/js/loadMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu_interno.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/menu_interno.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/polos.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/polos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/secoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/secoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/loadMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/loadMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/municipios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/municipios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/polos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/polos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/secoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/secoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/usuarios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pages/zonas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pages/zonas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +291,7 @@
       <workItem from="1762979523611" duration="764000" />
       <workItem from="1762980398762" duration="480000" />
       <workItem from="1762981185876" duration="1092000" />
-      <workItem from="1762995782043" duration="5972000" />
+      <workItem from="1762995782043" duration="6531000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Projeto do Sistema Eleitoral">
       <option name="closed" value="true" />
@@ -405,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762980221748</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ajustes no layout das páginas">
+      <option name="closed" value="true" />
+      <created>1763003329802</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1763003329802</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +427,8 @@
     <MESSAGE value="Ajustes na interface do projeto" />
     <MESSAGE value="Inclusão do login e ajustes no visual web" />
     <MESSAGE value="organizando código ddl" />
-    <option name="LAST_COMMIT_MESSAGE" value="organizando código ddl" />
+    <MESSAGE value="Ajustes no layout das páginas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no layout das páginas" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
