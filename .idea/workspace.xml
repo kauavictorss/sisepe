@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Correções nos endpoints do java e ajustes nos códigos do query">
-      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07f4ba80-aafc-4d55-8b28-ecdc943dfd50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07f4ba80-aafc-4d55-8b28-ecdc943dfd50/storage_v2/_src_/database/eleitorium.VTthaA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07f4ba80-aafc-4d55-8b28-ecdc943dfd50/storage_v2/_src_/database/eleitorium.VTthaA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07f4ba80-aafc-4d55-8b28-ecdc943dfd50/storage_v2/_src_/database/eleitorium.VTthaA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07f4ba80-aafc-4d55-8b28-ecdc943dfd50/storage_v2/_src_/database/eleitorium.VTthaA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/07f4ba80-aafc-4d55-8b28-ecdc943dfd50/storage_v2/_src_/database/eleitorium.VTthaA/schema/sisepe.api.yU_Q2g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/db/migration/polos-sedes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/db/migration/secoes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/db/migration/tabelas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/db/migration/tabelas.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/db/migration/zonas-sedes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/sisepe/api/imports/RestImportacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/sisepe/api/imports/RestImportacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/sisepe/api/imports/ServiceImport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/sisepe/api/imports/ServiceImport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/sisepe/api/municipio/DtoMunicipio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/sisepe/api/municipio/DtoMunicipio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/sisepe/api/secao/DtoSecao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/sisepe/api/secao/DtoSecao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/sisepe/sisepe/api/usuario/RestUsuarioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/imports/RestImportacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/imports/RestImportacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sisepe/api/imports/ServiceImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sisepe/api/imports/ServiceImport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/polos-sedes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/csv/polos-sedes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/secoes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/csv/secoes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/tabelas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/tabelas.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/zonas-sedes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/csv/zonas-sedes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sisepe/api/usuario/RestUsuarioTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Add diretorio pra CSVs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -328,6 +295,7 @@
       <workItem from="1763073319803" duration="8150000" />
       <workItem from="1763084784691" duration="53000" />
       <workItem from="1763084862871" duration="1425000" />
+      <workItem from="1763086315998" duration="939000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Projeto do Sistema Eleitoral">
       <option name="closed" value="true" />
@@ -457,7 +425,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763069520863</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Melhorias no README.md e ajustes nas variáveis de ambiente do projeto">
+      <option name="closed" value="true" />
+      <created>1763086555917</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1763086555917</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add diretorio pra CSVs">
+      <option name="closed" value="true" />
+      <created>1763086596168</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1763086596168</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +475,9 @@
     <MESSAGE value="ajuste na logo tre" />
     <MESSAGE value="Ajustes na interface de menu e login" />
     <MESSAGE value="Correções nos endpoints do java e ajustes nos códigos do query" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correções nos endpoints do java e ajustes nos códigos do query" />
+    <MESSAGE value="Melhorias no README.md e ajustes nas variáveis de ambiente do projeto" />
+    <MESSAGE value="Add diretorio pra CSVs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add diretorio pra CSVs" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
