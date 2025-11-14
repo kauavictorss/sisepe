@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,12 +19,12 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/js/loadMenu.js"></script>
+<script src="/js/loadMenu.js?v=2"></script>
 <script>
     // Redirect to login page if not "logged in"
     // This is a simple simulation, not a real security measure
     if (!sessionStorage.getItem('loggedIn')) {
-        window.location.href = '/login.html';
+        window.location.href = '/login';
     }
 </script>
 

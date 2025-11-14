@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Padronizando diretorios do projeto (em resources)">
+    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Finalizando README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu_interno.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/polos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/secoes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sisepe/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/loadMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/loadMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/loadMenuInterno.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/loadMenuInterno.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/menu_interno.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/menu_interno.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/municipios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/municipios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/polos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/polos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/secoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/secoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/usuarios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/zonas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/zonas.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +208,7 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://localhost:8080/login.html" />
+        <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://localhost:8080/login" />
       </method>
     </configuration>
     <list>
@@ -307,7 +310,8 @@
       <workItem from="1763073319803" duration="8150000" />
       <workItem from="1763084784691" duration="53000" />
       <workItem from="1763084862871" duration="1425000" />
-      <workItem from="1763086315998" duration="1517000" />
+      <workItem from="1763086315998" duration="2058000" />
+      <workItem from="1763088409744" duration="770000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Projeto do Sistema Eleitoral">
       <option name="closed" value="true" />
@@ -461,7 +465,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763087512541</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Finalizando README.md">
+      <option name="closed" value="true" />
+      <created>1763087997238</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1763087997238</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +510,8 @@
     <MESSAGE value="Melhorias no README.md e ajustes nas variáveis de ambiente do projeto" />
     <MESSAGE value="Add diretorio pra CSVs" />
     <MESSAGE value="Padronizando diretorios do projeto (em resources)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Padronizando diretorios do projeto (em resources)" />
+    <MESSAGE value="Finalizando README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando README.md" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

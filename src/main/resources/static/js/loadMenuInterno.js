@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("/menu_interno.html")
+    fetch("/menu_interno")
         .then(response => response.text())
         .then(data => {
             document.getElementById("menu-placeholder").innerHTML = data;
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 logoutButton.addEventListener('click', (event) => {
                     event.preventDefault();
                     sessionStorage.removeItem('loggedIn');
-                    window.location.href = '/login.html';
+                    window.location.href = '/login';
                 });
             }
         });
