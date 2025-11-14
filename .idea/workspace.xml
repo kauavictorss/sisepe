@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Add diretorio pra CSVs" />
+    <list default="true" id="f2960379-7717-4bc1-8288-2939b2fbda76" name="Changes" comment="Padronizando diretorios do projeto (em resources)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/menu_interno.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/municipios.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/polos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/secoes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/usuarios.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sisepe/static/pages/zonas.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,11 +128,11 @@
       <recent name="C:\Projetos\sisepe\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\sisepe\src\main\resources\templates" />
       <recent name="C:\Projetos\sisepe\src\main\resources\db\migration\csv" />
       <recent name="C:\Projetos\sisepe\src\main\resources\static\img" />
       <recent name="C:\Projetos\sisepe\src\main\resources\static\bootstrap" />
       <recent name="C:\Projetos\sisepe\src\main\resources\static\bootstrap\js" />
-      <recent name="C:\Projetos\sisepe\src\main\resources\static\bootstrap\css" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -295,7 +307,7 @@
       <workItem from="1763073319803" duration="8150000" />
       <workItem from="1763084784691" duration="53000" />
       <workItem from="1763084862871" duration="1425000" />
-      <workItem from="1763086315998" duration="939000" />
+      <workItem from="1763086315998" duration="1517000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciando Projeto do Sistema Eleitoral">
       <option name="closed" value="true" />
@@ -441,7 +453,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763086596168</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Padronizando diretorios do projeto (em resources)">
+      <option name="closed" value="true" />
+      <created>1763087512541</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1763087512541</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +497,8 @@
     <MESSAGE value="Correções nos endpoints do java e ajustes nos códigos do query" />
     <MESSAGE value="Melhorias no README.md e ajustes nas variáveis de ambiente do projeto" />
     <MESSAGE value="Add diretorio pra CSVs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add diretorio pra CSVs" />
+    <MESSAGE value="Padronizando diretorios do projeto (em resources)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Padronizando diretorios do projeto (em resources)" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
