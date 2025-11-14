@@ -2,7 +2,7 @@ package sisepe.api.imports;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestImportacao {
     private final ServiceImport servicoImportacao;
 
-    @GetMapping("/importar")
+    @PostMapping("/importar")
     public ResponseEntity<String> importarSecoes() {
         try {
             servicoImportacao.importarSecoesCsv();

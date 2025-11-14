@@ -20,7 +20,7 @@ create table usuarios (
 );
 
 alter table usuarios add column ativo boolean;
-update usuarios set ativo = 1 where ativo is null;
+update usuarios set ativo = true where ativo is null;
 
 create table zonas (
     numero             integer not null primary key,

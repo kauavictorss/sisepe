@@ -1,9 +1,9 @@
 spring:
   application.name: sisepe
   datasource:
-    url: jdbc:postgresql://localhost:5432/eleitorium
+    url: jdbc:postgresql://localhost:5432/sisepe
     username: postgres
-    password: Ka.54123
+    password: ${SENHA_DB}
   jpa.hibernate.ddl-auto: validate
   flyway:
     baseline-on-migrate: true
