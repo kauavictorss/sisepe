@@ -23,7 +23,7 @@ import java.util.Optional;
 @Service
 @Slf4j
 @RequiredArgsConstructor
-public class ServiceImport {
+public class ImportService {
     private final RepoSecao secaoRepo;
     private final RepoMunicipio municipioRepo;
     private final RepoPolo poloRepo;

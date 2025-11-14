@@ -1,6 +1,7 @@
 # Projeto SISEPE - Sistema de Seções Eleitorais de Pernambuco
 
 Este projeto é uma aplicação web desenvolvida para consultar informações sobre Zonas Eleitorais, Municípios, Polos e Seções de votação do estado de Pernambuco. A aplicação permite a importação de dados a partir de arquivos CSV e a realização de diversas consultas através de uma API REST.
+
 O projeto foi desenvolvido durante estágio no Tribunal Regional Eleitoral de Pernambuco (TRE-PE), com o objetivo de aplicar conhecimentos em Spring Boot e banco de dados relacional.
 
 ## 🛠️ Tecnologias Utilizadas

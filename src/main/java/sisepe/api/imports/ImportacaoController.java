@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-public class RestImportacao {
-    private final ServiceImport servicoImportacao;
+public class ImportacaoController {
+    private final ImportService servicoImportacao;
 
     @PostMapping("/importar")
     public ResponseEntity<String> importarSecoes() {
