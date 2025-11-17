@@ -124,4 +124,4 @@ Siga os passos abaixo para configurar e executar a aplicação em seu ambiente l
 
 5.  **Acesse a Aplicação:**
     *   A API estará disponível em `http://localhost:8080`.
-    *   O frontend pode ser acessado abrindo os arquivos da pasta `src/main/resources/static` em seu navegador.
+    *   O frontend pode ser acessado abrindo os arquivos da pasta `src/main/resources/templates` em seu navegador.
