@@ -100,12 +100,12 @@ Siga os passos abaixo para configurar e executar a aplicação em seu ambiente l
     ```
 
 2.  **Configure o Banco de Dados:**
-    *   Crie um novo banco de dados no PostgreSQL (usando o pgAdmin 4, por exemplo) e nomeie-o como `sisepe`.
-    *   No seu sistema operacional, crie uma **variável de ambiente** chamada `SENHA_DB` e defina seu valor para a senha do seu banco de dados. O Spring Boot a utilizará automaticamente.
-    *   Se necessário, ajuste o nome de usuário em `src/main/resources/application.yml`.
+    *   Crie um novo banco de dados no PostgreSQL (usando o pgAdmin 4, por exemplo) e nomeie-o (ex: `sisepe`).
+    *   (Opcional) No seu sistema operacional, crie uma **variável de ambiente** chamada `SENHA_DB` e defina seu valor para a senha do seu banco de dados. O Spring Boot a utilizará automaticamente.
+    *   Se necessário, ajuste o nome de usuário e senha em `src/main/resources/application.yml`.
 
 3.  **Execute a Aplicação:**
-    *   Utilize o Maven para iniciar o servidor Spring Boot. O Flyway executará as migrações do banco de dados automaticamente na primeira inicialização.
+    *   Utilize o Maven para iniciar o servidor Spring Boot e execute a classe `SisepeApplication.java`. O Flyway executará as migrações do banco de dados automaticamente na primeira inicialização.
     ```bash
     # Usando o Maven Wrapper
     ./mvnw spring-boot:run
