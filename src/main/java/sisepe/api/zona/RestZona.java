@@ -2,6 +2,7 @@ package sisepe.api.zona;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import sisepe.api.municipio.DtoMunicipio;
 
@@ -16,23 +17,23 @@ public class RestZona {
     private final RepoZona repositorio;
 
     @GetMapping("/numero")
-    public List<DtoZona> buscarZonaPorNumero(@RequestParam int numZona) {
-        return repositorio.findById(numZona).stream().map(DtoZona::new).toList();
+    public ResponseEntity<List<DtoZona>> buscarZonaPorNumero(@RequestParam int numZona) {
+        return ResponseEntity.ok(repositorio.findById(numZona).stream().map(DtoZona::new).toList());
     }
 
     @GetMapping("/municipio-sede")
-    public List<DtoZona> buscarMunicipioSedeDeUmaZona(@RequestParam int numZona) {
-        return repositorio.findByMunicipioSedeDeUmaZona(numZona);
+    public ResponseEntity<List<DtoZona>> buscarMunicipioSedeDeUmaZona(@RequestParam int numZona) {
+        return ResponseEntity.ok(repositorio.findByMunicipioSedeDeUmaZona(numZona));
     }
 
     @GetMapping("/municipios")
-    public List<DtoMunicipio> buscarMunicipiosDeUmaZona(@RequestParam int numZona) {
-        return repositorio.findByMunicipiosDeUmaZona(numZona);
+    public ResponseEntity<List<DtoMunicipio>> buscarMunicipiosDeUmaZona(@RequestParam int numZona) {
+        return ResponseEntity.ok(repositorio.findByMunicipiosDeUmaZona(numZona));
     }
 
     @GetMapping("/secoes")
-    public List<DtoZona> buscarSecoesDeUmaZona(@RequestParam int numZona) {
+    public ResponseEntity<List<DtoZona>> buscarSecoesDeUmaZona(@RequestParam int numZona) {
         log.info("Secao da zona encontrada: {}", numZona);
-        return repositorio.findBySecoesdeUmaZona(numZona).stream().map(DtoZona::new).toList();
+        return ResponseEntity.ok(repositorio.findBySecoesdeUmaZona(numZona).stream().map(DtoZona::new).toList());
     }
 }

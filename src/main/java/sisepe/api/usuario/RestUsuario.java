@@ -47,15 +47,17 @@ public class RestUsuario {
 
     @PutMapping("/atualizar")
     @Transactional
-    public void atualizarUsuario(@RequestBody @Valid DtoAtualizarUsuario dados) {
+    public ResponseEntity<DtoListagemUsuarios> atualizarUsuario(@RequestBody @Valid DtoAtualizarUsuario dados) {
         var usuario = repositorio.getReferenceById(dados.cpf());
         usuario.atualizarDados(dados);
+        return ResponseEntity.ok(new DtoListagemUsuarios(usuario));
     }
 
     @DeleteMapping("/excluir/{cpf}")
     @Transactional
-    public void excluirUsuario(@PathVariable String cpf) {
+    public ResponseEntity<Void> excluirUsuario(@PathVariable String cpf) {
         var usuario = repositorio.getReferenceById(cpf);
         usuario.excluir();
+        return ResponseEntity.noContent().build();
     }
 }
