@@ -27,6 +27,11 @@ public class RestMunicipio {
         return ResponseEntity.ok(repositorio.findByZonasDeUmMunicipio(nomeMunicipio).stream().map(DtoZona::new).toList());
     }
 
+    @GetMapping("/polos")
+    public ResponseEntity<List<DtoMunicipio>> buscarPoloDeUmMunicipio(@RequestParam String nomeMunicipio) {
+        return ResponseEntity.ok(repositorio.findByPoloDeUmMunicipio(nomeMunicipio).stream().map(DtoMunicipio::new).toList());
+    }
+
     @GetMapping("/secoes")
     public ResponseEntity<List<DtoSecao>> buscarSecoesDeUmMunicipio(@RequestParam String nomeMunicipio) {
         return ResponseEntity.ok(repositorio.findBySecoesDeUmMunicipio(nomeMunicipio).stream().map(DtoSecao::new).toList());

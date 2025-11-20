@@ -64,12 +64,12 @@
             </div>
         </div>
 
-        <!-- 3. Buscar Seções de um Município -->
+        <!-- 3. Buscar Polo de um Município -->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">3. Buscar
-                    Seções de um Município
+                    Polo de um Município
                 </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -87,6 +87,28 @@
             </div>
         </div>
 
+        <!-- 4. Buscar Seções de um Município -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">4. Buscar
+                    Seções de um Município
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                 data-bs-parent="#municipioAccordion">
+                <div class="accordion-body">
+                    <form id="form-4">
+                        <div class="input-group">
+                            <label for="param-4"></label><input type="text" class="form-control"
+                                                                placeholder="Digite o nome do município"
+                                                                id="param-4" required>
+                            <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i> Buscar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Results Area -->
@@ -341,15 +363,26 @@
         );
     });
 
-    // 3. Buscar Seções de um Município
+    // 3. Buscar Polo de um Município
     document.getElementById('form-3').addEventListener('submit', (event) => {
         const nomeMunicipio = document.getElementById('param-3').value;
         tratarEnvioDeFormularioComPaginacao(event,
-            `${API_BASE_URL}/municipios/secoes?nomeMunicipio=${nomeMunicipio}`,
-            ['ID', 'Número', 'Zona', 'Polo', 'Código TSE', 'Nome do Município'],
-            (item) => `<td>${item.id}</td><td>${item.numSecao}</td><td>${item.numZona}</td><td>${item.numPolo}</td><td>${item.codTse}</td><td>${item.nomeMunicipio}</td>`
+            `${API_BASE_URL}/municipios/polos?nomeMunicipio=${nomeMunicipio}`,
+            ['Cód. TSE', 'Nome', 'Polo'],
+            (item) => `<td>${item.codTse}</td><td>${item.nome}</td><td>${item.numPolo}</td>`
         );
-    });</script>
+    });
+
+    // 4. Buscar Seções de um Município
+    document.getElementById('form-4').addEventListener('submit', (event) => {
+        const nomeMunicipio = document.getElementById('param-4').value;
+        tratarEnvioDeFormularioComPaginacao(event,
+            `${API_BASE_URL}/municipios/secoes?nomeMunicipio=${nomeMunicipio}`,
+            ['Número da seção'],
+            (item) => `<td>${item.numSecao}</td>`
+        );
+    });
+</script>
 
 </body>
 </html>

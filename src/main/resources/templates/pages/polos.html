@@ -161,8 +161,8 @@
         const numPolo = document.getElementById('param-2').value;
         handleFormSubmit(event,
             `${API_BASE_URL}/polos/municipios?numPolo=${numPolo}`,
-            ['Cód. TSE', 'Nome'],
-            (item) => `<td>${item.codTse}</td><td>${item.nome}</td>`
+            ['Cód. TSE', 'Nome', 'Zona'],
+            (item) => `<td>${item.codTse}</td><td>${item.nome}</td><td>${item.numZona}</td>`
         );
     });
 

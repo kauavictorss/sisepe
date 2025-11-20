@@ -22,4 +22,11 @@ public interface RepoMunicipio extends JpaRepository<Municipio, Integer> {
             WHERE s.municipio.nome = :nome
             """)
     List<Secao> findBySecoesDeUmMunicipio(String nome);
+
+    @Query("""
+            SELECT m
+            FROM Municipio m
+            WHERE m.polo = (SELECT m2.polo FROM Municipio m2 WHERE m2.nome = :nomeMunicipio)
+            """)
+    List<Municipio> findByPoloDeUmMunicipio(String nomeMunicipio);
 }

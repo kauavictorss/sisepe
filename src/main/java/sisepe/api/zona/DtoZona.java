@@ -19,8 +19,8 @@ public record DtoZona(Integer numZona, Integer municipioCodTse, String nomeMunic
     public DtoZona(Secao secao) {
         this(
                 null,
-                null,
-                null,
+                secao.getMunicipio().getCodTse(),
+                secao.getMunicipio().getNome(),
                 null,
                 secao.getNumero()
         );

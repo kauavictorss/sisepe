@@ -24,7 +24,7 @@ public class RestPolo {
 
     @GetMapping("/municipios")
     public ResponseEntity<List<DtoMunicipio>> buscarMunicipiosDeUmPolo(@RequestParam int numPolo) {
-        return ResponseEntity.ok(repositorio.findByMunicipiosDeUmPolo(numPolo));
+        return ResponseEntity.ok(repositorio.findByMunicipiosDeUmPolo(numPolo).stream().map(DtoMunicipio::new).toList());
     }
 
     @GetMapping("/zonas")

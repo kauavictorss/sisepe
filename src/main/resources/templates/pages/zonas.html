@@ -109,7 +109,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <!-- Results Area -->
@@ -379,8 +378,8 @@
         const numZona = document.getElementById('param-4').value;
         tratarEnvioDeFormularioComPaginacao(event,
             `${API_BASE_URL}/zonas/secoes?numZona=${numZona}`,
-            ['Número da Seção'],
-            (item) => `<td>${item.numSecao}</td>`
+            ['Número da Seção', 'Nome do Município', 'Código TSE'],
+            (item) => `<td>${item.numSecao}</td><td>${item.nomeMunicipio}</td><td>${item.municipioCodTse}</td>`
         );
     });
 </script>
