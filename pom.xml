@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>sisepe.api</groupId>
 	<artifactId>sisepe</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>2.0.0</version>
 	<name>sisepe</name>
 	<description>SISEPE - Sistema de Seções Eleitorais de Pernambuco</description>
 	<url/>
