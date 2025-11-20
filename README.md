@@ -63,7 +63,10 @@ A API REST oferece as seguintes funcionalidades:
 ### 3. Consultas de Municípios
 *   `GET /municipios/codTse?codTse={id}`: Busca um município pelo código do TSE.
 *   `GET /municipios/zonas?nomeMunicipio={nome}`: Lista as zonas de um município.
+*   `GET /municipios/polos?nomeMunicipio={nome}`: Lista os municípios que pertencem ao mesmo polo de um dado município.
 *   `GET /municipios/secoes?nomeMunicipio={nome}`: Lista as seções de um município.
+
+> **Nota:** As consultas que utilizam o parâmetro `nomeMunicipio` esperam que o valor seja fornecido em letras **MAIÚSCULAS**.
 
 ### 4. Consultas de Polos
 *   `GET /polos/numero?numPolo={id}`: Busca um polo pelo número.
@@ -119,9 +122,14 @@ Siga os passos abaixo para configurar e executar a aplicação em seu ambiente l
     *   Ou usando o curl na linha de comando:
     ```bash
     # Exemplo usando curl
-    curl http://localhost:8080/importar
+    curl -X POST http://localhost:8080/importar
     ```
 
 5.  **Acesse a Aplicação:**
     *   A API estará disponível em `http://localhost:8080`.
-    *   O frontend pode ser acessado abrindo os arquivos da pasta `src/main/resources/templates` em seu navegador.
+    *   As páginas de consulta podem ser acessadas através das seguintes URLs:
+        *   `http://localhost:8080/pages/municipios`
+        *   `http://localhost:8080/pages/polos`
+        *   `http://localhost:8080/pages/secoes`
+        *   `http://localhost:8080/pages/usuarios`
+        *   `http://localhost:8080/pages/zonas`
